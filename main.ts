@@ -9,10 +9,10 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     }
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleBlueCrystal, function (sprite, location) {
-    tiles.setCurrentTilemap(tilemap`level5`)
+    tiles.setCurrentTilemap(tilemap`level3`)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleRedCrystal, function (sprite, location) {
-    tiles.setCurrentTilemap(tilemap`level4`)
+    tiles.setCurrentTilemap(tilemap`level2`)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestOpen, function (sprite, location) {
     game.gameOver(true)
